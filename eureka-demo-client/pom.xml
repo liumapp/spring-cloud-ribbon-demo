@@ -9,7 +9,7 @@
   </parent>
 
   <groupId>com.liumapp.demo.ribbon.client</groupId>
-  <artifactId>eureka-demo-client</artifactId>
+  <artifactId>client-a</artifactId>
   <version>v1.0.0</version>
   <packaging>jar</packaging>
 
@@ -19,7 +19,7 @@
     <java.version>1.8</java.version>
   </properties>
 
-  <name>eureka-demo-client</name>
+  <name>client-c</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
