@@ -1,4 +1,4 @@
-package com.liumapp.demo.ribbon.customer.a;
+package com.liumapp.demo.ribbon.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,12 +8,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Created by liumapp on 9/28/17.
+ * Created by liumapp on 1/25/18 5:33 PM.
  * E-mail:liumapp.com@gmail.com
  * home-page:http://www.liumapp.com
  */
 @EnableDiscoveryClient
-@SpringBootApplication(scanBasePackages = {"com.liumapp.demo.ribbon.customer.a"})
+@SpringBootApplication(scanBasePackages = {"com.liumapp.demo.ribbon.customer"})
 public class Main {
 
     @Bean

@@ -1,11 +1,11 @@
-package com.liumapp.demo.ribbon.customer.a.controller;
+package com.liumapp.demo.ribbon.customer.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by liumapp on 9/28/17.
+ * Created by liumapp on 1/25/18 5:34 PM.
  * E-mail:liumapp.com@gmail.com
  * home-page:http://www.liumapp.com
  */
@@ -15,7 +15,7 @@ public class IndexController {
 
     @RequestMapping(path = "")
     public String index (ModelMap model) {
-        return "Hello , this is customer a .";
+        return "Hello , this is a customer  .";
     }
 
 }
