@@ -8,16 +8,18 @@
     <version>v1.0.0</version>
   </parent>
 
-  <groupId>com.liumapp.demo.ribbon.client.b</groupId>
-  <artifactId>eureka-demo-client-b</artifactId>
+  <groupId>com.liumapp.demo.ribbon.client.a</groupId>
+  <artifactId>ribbon-demo-client-a</artifactId>
   <version>v1.0.0</version>
   <packaging>jar</packaging>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>1.8</java.version>
   </properties>
 
-  <name>eureka-demo-client-b</name>
+  <name>ribbon-demo-client-a</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>

@@ -34,11 +34,10 @@
 		</dependencies>
 	</dependencyManagement>
 
-  <modules>
-    <module>eureka-demo-server</module>
-    <module>eureka-demo-client-a</module>
-    <module>eureka-demo-client-b</module>
-    <module>eureka-demo-customer-a</module>
-    <module>client-c</module>
-  </modules>
+	<modules>
+		<module>eureka-demo-server</module>
+		<module>eureka-demo-customer-a</module>
+		<module>ribbon-demo-client-a</module>
+		<module>ribbon-demo-client-b</module>
+	</modules>
 </project>
