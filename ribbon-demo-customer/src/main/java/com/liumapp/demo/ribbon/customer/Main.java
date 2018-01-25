@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Created by liumapp on 1/25/18 5:33 PM.
+ * Created by liumapp on 1/25/18 5:37 PM.
  * E-mail:liumapp.com@gmail.com
  * home-page:http://www.liumapp.com
  */
